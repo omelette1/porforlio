@@ -12,7 +12,7 @@ app.use(express.static(buildPath));
 
 
 const corsOptions={
-  origin:'http://localhost:3001',
+  origin:'https://porforlio-n6rp.onrender.com',
   optionsSuccessStatus:200
 }
 app.use(cors(corsOptions))
